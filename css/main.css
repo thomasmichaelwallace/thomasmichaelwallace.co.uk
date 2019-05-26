@@ -1,0 +1,137 @@
+/*
+	http://www.thomasmichaelwallace.co.uk	
+	Site design Copyright (c) 2012 Thomas Michael Wallace		
+*/
+
+/* css reset */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+/* customised typography */
+
+/* @font-face css by Font Squirrel (http://www.fontsquirrel.com) */
+@font-face {
+	/*
+		Familiar Pro Bold
+			(C) CheapProFonts, www.ChearpProFonts.com
+	*/
+    font-family: 'FamiliarProBold';
+    src: url('font/Familiar_Pro-Bold-webfont.eot');
+    src: url('font/Familiar_Pro-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/Familiar_Pro-Bold-webfont.woff') format('woff'),
+         url('font/Familiar_Pro-Bold-webfont.ttf') format('truetype'),
+         url('font/Familiar_Pro-Bold-webfont.svg#FamiliarProBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+	/*
+		Crete Round Regular
+			(C) TypeTogether, www.type-together.com	
+	*/	
+    font-family: 'CreteRoundRegular';
+    src: url('font/CreteRound-Regular-webfont.eot');
+    src: url('font/CreteRound-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/CreteRound-Regular-webfont.woff') format('woff'),
+         url('font/CreteRound-Regular-webfont.ttf') format('truetype'),
+         url('font/CreteRound-Regular-webfont.svg#CreteRoundRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* page structure */
+
+
+html { height: 100%; }
+
+#page {
+   width: 60em;
+   height: 30em;
+   position: absolute;
+   left: 50%;
+   top: 50%; 
+   margin-left: -30em;
+   margin-top: -15em;
+}
+
+
+/* fonts and headings */
+
+h1, h2, h3, h4 { font-family: 'FamiliarProBold', sans-serif; }
+p { font-family: 'CreteRoundRegular', serif; }
+
+h1, h2, h3, h4, p {
+	color: #333333;
+	font-weight: normal;
+}
+
+h1 { font-size: 3.0em; }
+h3 { font-size: 1.1em; }
+p { font-size: 1.0em; }
+
+/* paragraphing */
+
+h1, h3, h4, p { line-height: 1.2; }
+
+h3 { padding-bottom: 1.2em; }
+h4 { padding-bottom: 0.5em; }
+p { padding-bottom: 1.0em; }
+
+
+h1 { text-align: right; }
+h3, h4 { text-align: left; }
+p { text-align:justify; }
+
+
+/* internal structures */
+
+.content { padding: 0.83em; padding-left: 1.25em; }
+
+.basic .slide h2 {
+	border-bottom: 5px;
+	border-bottom-style: solid;
+}
+
+.left {
+	float: left;
+	position: relative;
+	display: block;
+	margin-right: 1em;
+}
+
+.lhs {
+	width: 49%;
+	float: left;
+	position: relative;
+	padding-right: 1em;
+	border-right: 1px solid;
+}
+.rhs {
+	width: 45%;
+	float: left;
+	padding-left: 1em;
+	position: relative;
+}
+
+#contact p {
+	text-align: center;
+	padding-top: 1.2em;
+	padding-bottom: 1.2em;
+}
+#contact img { padding-left: 15px; }
+
+.clear {clear: both;}
+
+/* specific formats */
+
+.badge { text-align: center; }
+
+.visit { text-align: right; }
+
+
+

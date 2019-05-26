@@ -1,0 +1,11 @@
+/*
+	http://www.thomasmichaelwallace.co.uk	
+	Site design Copyright (c) 2012 Thomas Michael Wallace		
+*/
+
+/* script generated colour css */
+.@name h3, .@name a, .@name a:visited { color: @colour; }
+.@name h2 { border-bottom-color: @colour !important; }
+.@name .lhs { border-right-color: @colour; }
+
+#logo_@name span { color: @colour; }
